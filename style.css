@@ -1,0 +1,23 @@
+.wrapper {
+    margin: 0 200px;
+    line-height: 25px;
+    border: 1px solid black;
+    height: 400px;
+    color: #0000ff;
+    display: grid;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    grid-template-columns: 200px repeat(3, 250px);
+    grid-template-rows: 100px 100px;
+    /* grid-template-columns: minmax(50px,900px) minmax(100px,200px) minmax(250px,150px);
+    grid-template-rows: minmax(100px,110%) minmax(100px,1fr); */
+}
+.wrapper > div {
+    border: 1px yellowgreen solid;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
